@@ -35,7 +35,8 @@
 Документация по API
 
 ## Склонируйте репозиторий с помощью git
-    git@github.com:zhoomartq/code_test.git
+    git@github.com:zhoomartq/code_test.git /SSH
+    https://github.com/zhoomartq/code_test.git /HTTPS 
 
 ### В файле ``` runtime.txt ``` указана версия питона
 
