@@ -29,7 +29,7 @@ class MyUser(AbstractBaseUser, PermissionsMixin):
     is_staff = models.BooleanField(default=False)
     username = None
     email = models.EmailField(unique=True, error_messages={'unique': 'Такой пользователь уже зарегистрирован в системе!'}, null=True)
-    is_active = models.BooleanField(default=True) # def False
+    is_active = models.BooleanField(default=True) 
 
 
     objects = MyUserManager()

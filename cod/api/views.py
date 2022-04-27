@@ -13,11 +13,6 @@ class PermissionMixin:
             permission_list = [permissions.IsAdminUser, ]
         else:
             permission_list = [permissions.IsAuthenticated, ]
-        # elif self.action in ['create', 'update', 'partial_update', 'delete']:
-        #     permission_list = [permissions.IsAdminUser, ]
-        
-        # else:
-        #     permission_list = []
         return [perm() for perm in permission_list]
 
 
