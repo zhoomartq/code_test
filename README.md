@@ -117,3 +117,5 @@ curl --location --request POST 'http://0.0.0.0:8000/api/quizzes/' \
 ```
 ### Детальнее можно ознакомиться в ```swagger``` документации http://0.0.0.0:8000/docs/ 
 
+...
+
